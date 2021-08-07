@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DevTools</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <link rel="icon" href="./resources/img/logo/owl1.png">
+    <link rel="stylesheet" href="./vendors/css/fontawesome-free-5.14.0-web/css/all.css">
+    
+</head>
+<body>
+    
+        <div id="banner"></div>
+        <header class="header" style="background-color: var(--header-color);" >
+            <div class="grid" id="header12">
+                <div class="header-container">
+                    <div class="header-logo">
+                        <a href="#">
+                            <img src="./resources/img/logo/logo.png" alt="logo" >
+                            
+                        </a>
+                    </div>
+                    <div class="header-menu">
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a href="/webDesign/index.html">
+                                    <i class="fas fa-home"></i>
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a href="/webDesign/category.html" class="header-item-course">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a href="/webDesign/about.html" class="header-item-inform">
+                                    <i class="fas fa-bell"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- has-logged (to logged) -->
+                    <div class="header-user has-logged">
+                        <div class="logged">
+                            <div class="logged-icon-course">
+                                <i class="logged-icon-course-hover fas fa-bookmark"></i>
+                                <i class="logged-icon-course-none far fa-bookmark"></i>
+                                <ul class="logged-icon-course-list">
+                                    <h3 class="logged-icon-course-list-topdown"><a href="#">Your Course</a></h3>
+                                    <a href="/webDesign/htmlcss.html" class="logged-icon-course-item" >
+                                        <div class="logged-icon-course-item-img">
+                                            <img src="/webDesign/resources/img/iconLanguage/cplus.png" alt="">
+                                        </div>
+                                        <div class="logged-icon-course-item-content">
+                                            <h3>C++</h3>
+                                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quam provident corporis magnam debitis. Facere quisquam corrupti itaque fugit. Quidem veritatis esse exercitationem facilis nulla architecto accusantium mollitia, maxime totam!</span>
+                                        </div>
+                                        <div class="course-percent">
+                                            <svg height="100" width="100">
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="gray" stroke-width="5" fill="transparent" />
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="lime" stroke-width="5" fill="transparent" />
+                                                 
+                                            </svg> 
+                                            <span class="course-percent-text">56%</span>
+                                        </div>
+                                    </a>
+                                    <a href="/webDesign/htmlcss.html" class="logged-icon-course-item">
+                                        <div class="logged-icon-course-item-img">
+                                            <img src="/webDesign/resources/img/iconLanguage/css.png" alt="">
+                                        </div>
+                                        <div class="logged-icon-course-item-content">
+                                            <h3>CSS</h3>
+                                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quam provident corporis magnam debitis. Facere quisquam corrupti itaque fugit. Quidem veritatis esse exercitationem facilis nulla architecto accusantium mollitia, maxime totam!</span>
+                                        </div>
+                                        <div class="course-percent">
+                                            <svg height="100" width="100">
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="gray" stroke-width="5" fill="transparent" />
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="lime" stroke-width="5" fill="transparent" />
+                                                 
+                                            </svg> 
+                                            <span class="course-percent-text">32%</span>
+                                        </div>
+                                    </a>
+                                    <a href="/webDesign/htmlcss.html" class="logged-icon-course-item">
+                                        <div class="logged-icon-course-item-img">
+                                            <img src="/webDesign/resources/img/iconLanguage/html.png" alt="">
+                                        </div>
+                                        <div class="logged-icon-course-item-content">
+                                            <h3>HTML</h3>
+                                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quam provident corporis magnam debitis. Facere quisquam corrupti itaque fugit. Quidem veritatis esse exercitationem facilis nulla architecto accusantium mollitia, maxime totam!</span>
+                                        </div>
+                                        <div class="course-percent">
+                                            <svg height="100" width="100">
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="gray" stroke-width="5" fill="transparent" />
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="lime" stroke-width="5" fill="transparent" />
+                                                 
+                                            </svg> 
+                                            <span class="course-percent-text">80%</span>
+                                        </div>
+                                    </a>
+                                    <a href="/webDesign/htmlcss.html" class="logged-icon-course-item">
+                                        <div class="logged-icon-course-item-img">
+                                            <img src="/webDesign/resources/img/iconLanguage/python.png" alt="">
+                                        </div>
+                                        <div class="logged-icon-course-item-content">
+                                            <h3>Python</h3>
+                                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quam provident corporis magnam debitis. Facere quisquam corrupti itaque fugit. Quidem veritatis esse exercitationem facilis nulla architecto accusantium mollitia, maxime totam!</span>
+                                        </div>
+                                        <div class="course-percent">
+                                            <svg height="100" width="100">
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="gray" stroke-width="5" fill="transparent" />
+                                                <circle class="course-percent-circle" cx="50" cy="50" r="35" stroke="lime" stroke-width="5" fill="transparent" />
+                                                 
+                                            </svg> 
+                                            <span class="course-percent-text">16%</span>
+                                        </div>
+                                    </a>
+                                    <h3 class="logged-icon-course-list-topdown"><a href="#">More</a> </h3>
+                                </ul>
+                            </div>
+                            <div class="logged-img">
+                                <img src="./resources/img/user/ava_user.jpg" alt="avatar">
+                            </div>
+                            <div class="logged-user-coin">Vũ Quý Thiện</div>
+                            <i class="logged-icon fas fa-chevron-down">
+                                <ul class="user-menu">
+                                    <li class="user-option-item">My account</li>
+                                    
+                                    <li class="user-option-item">
+                                        <i class="fas fa-sign-out-alt"></i>
+                                        <span class="logout">Logout</span> 
+                                    </li>
+                                </ul>
+                            </i>
+                        </div>
+                        <div class="not-logged">
+                            <div class="logged-img">
+                                <img src="./resources/img/user/avatar.jpg" alt="avatar">
+                            </div>
+                            <div class="logged-user-coin">Tài khoản</div>
+                            <i class="logged-icon fas fa-chevron-down">
+                                <ul class="user-menu">
+                                    <li class="user-option-item"><a href="/webDesign/login.html">Log in</a></li>
+                                    <li class="user-option-item"><a href="/webDesign/register.html">Register</a></li>
+                                    
+                                </ul>
+                            </i>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="contact-sticky contact-hide">
+                <div class="contact-sticky-head">
+                    <a >
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="Youtube contact-sticky-div">
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="Facebook contact-sticky-div">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="Twiter contact-sticky-div">
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="to-top-sticky ">
+            
+                <a href="#banner">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
+            </div>
+            
+    </div>
+    <div class="box">
+        <div class="box-left">
+            <a href="category.html">
+                <span class="text2"><b>Khóa học</b></span> 
+            </a>
+            <i class="fas fa-chevron-right"></i>
+            <span class="text2">Kiến thức chung</span>
+            <h1 class="text3"><b>Kiến thức cơ bản, tổng quan cho dân IT</b></h1>
+            <div class="text4">Kiến thức cơ bản dành cho dân IT, không phân biệt bạn theo Front-end, Back-end hay Devops. </div>
+            <div class="box-list">
+                <h3 class="texth3">Bạn sẽ được học những gì</h3>
+                <section class="box-section">
+                  <ul>
+                      <div style="display: inline-block;">
+                    <li>
+                      <i class="i fas fa-check"> </i>
+                      <span>Các kiến thức cơ bản,nền móng ngành IT</span>
+                    </li>
+                    <li>
+                        <i class="i fas fa-check"> </i>
+                        <span>Các khái niệm, thuật ngữ cốt lõi khi triển khai ứng dụng</span>
+                        
+                    </li>
+                </div>
+                    <div style="display: inline-block;">
+                    <li>
+                        <i class="i fas fa-check"> </i>
+                        <span>Các mô hình, kiến trúc cơ bản khi triển khai ứng dụng</span>
+                    </li>
+                    <li>
+                        <i class="i fas fa-check"> </i>
+                        <span>Hiểu hơn về cách internet và máy vi tính hoạt động</span>
+                    </li>
+                </div>
+                  </ul>
+                </section>
+            </div>
+            
+            <div class="box-list-detail">
+                <div class="box-list-left">
+                    <h2>Nội dung khóa học</h2>      
+                </div>
+                <div class="box-list-right">
+                    <span>4 Bài học</span>
+                    <span style="padding-left: 3%;">81m 12s</span>
+                </div>
+            </div>
+            
+
+            <div class="box-list-detail">
+                <ul class="list-cscs">
+                    <li class="box-list-left">
+                        <i class="i fas fa-play" >
+                            <a href="/webDesign/htmlcssvh.html">
+                            <span>Những lời khuyên hữu ích cho người mới học lập trình.</span>
+                            </a>
+                        </i>
+                    </li>
+                    <span class="box-list-right2">
+                        <a href="/webDesign/htmlcssvh.html">Bắt đầu</a>
+                        <span>(16m 12s)</span>
+                    </span>
+                </ul>
+                <ul class="list-cscs">
+                    <li class="box-list-left">
+                        <i class="i fas fa-play" >
+                            <a href="/webDesign/htmlcssvh.html">
+                            <span>Để trở thành người lập trình thì cần những gì?</span>
+                        </a>
+                        </a>
+                        </i>
+                    </li>
+                    <span class="box-list-right2">
+                        <a href="/webDesign/htmlcssvh.html">Bắt đầu</a>
+                        <span>(5m 45s)</span>
+                    </span>
+                </ul>
+                <ul class="list-cscs">
+                    <li class="box-list-left">
+                        <i class="i fas fa-play" >
+                            <a href="/webDesign/htmlcssvh.html">
+                            <span>Mô hình Client-Server</span>
+                        </a>
+                        </i>
+                    </li>
+                    <span class="box-list-right2">
+                        <a href="/webDesign/htmlcssvh.html">Bắt đầu</a>
+                        <span>(9m 14s)</span>
+                    </span>
+                </ul>
+                <ul class="list-cscs">
+                    <li class="box-list-left">
+                        <i class="i fas fa-lock" >
+                            <a href="/webDesign/htmlcssvh.html">
+                            <span>Quản lý thư mục dự án trên máy tính và VSCode hiệu quả hơn</span>
+                        </a>
+                        </i>
+                    </li>
+                    <span class="box-list-right2">
+                        <a href="/webDesign/htmlcssvh.html">Bắt đầu</a>
+                        <span>(19m 01s)</span>
+                    </span>
+                </ul>
+                <ul class="list-cscs">
+                    <li class="box-list-left">
+                        <i class="i fas fa-location-arrow" >
+                            <a href="/webDesign/htmlcssvh.html">
+                            <span>Domain là gì? Bạn đã thật sự hiểu về domain?</span>
+                        </a>
+                        </i>
+                    </li>
+                    <span class="box-list-right2">
+                        <a href="/webDesign/htmlcssvh.html">Tìm hiểu</a>
+                        <span>(27m 49s)</span>
+                    </span>
+                </ul>
+            </div>
+        </div>
+
+        <div class="box-right1">
+          <div class="box-right1-cover">
+                <button class="box-video" id="play" onmousemove="play();">
+                <i class="circle-play fas fa-play-circle" ></i>
+              </button>
+              <div>
+                <div class="box-video-play" id="playvideo">
+                    <video id="video" src="resources/video/Làm quen với Dev tools.mp4" controls></video>
+                </div>          
+              </div>
+            
+            <div class="box-right-detail">
+                <h1 class="text5"> Miễn phí </h1>
+                <a href="/webDesign/htmlcssvh.html" class="text6 btn-getstarted" type="submit">ĐĂNG KÍ NGAY</a>
+            </div> 
+            <ul class="box-right-detail">
+                <li>
+                    <i class="fas fa-tachometer-alt"> </i>    
+                    <span>Trình độ học cơ bản</span>
+                </li>
+                <li>
+                    <i class="fas fa-film"></i>
+                    <span>Tổng số 4 bài</span>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>Chỉ cần 0.55 giờ</span>
+                </li>
+                <li>
+                    <i class="fas fa-battery-full"></i>
+                    <span>Học mọi lúc mọi nơi</span>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    
+    <div class="cmt">
+        <div class="reaction">          
+            <div class="reaction-text">
+                <h2 id="SL-reaction"></h2>             
+            </div>
+         </div>
+         <div class="box-comment" style="clear: both;margin: 2% 0 2% 10%;">
+            <div class="cmt-avatar">
+                <i class="avt fas fa-user-circle"></i>
+            </div>
+            <div class="comment-detail">
+                <input type="text" class="cmt-input" id="input" placeholder="Bạn nghĩ gì về khóa học này?">
+                <button class="btn-cmt" id="Guicmt" onclick="insertcmt();">Gửi</button>
+            </div>
+
+         </div>
+        <div class="comment">
+            <div id="insert" class="insert"></div>
+            <div class="cmt-avatar">
+                <i class="avt fas fa-user-circle"></i>
+            </div>
+            <div class="cmt-body">
+                <span class="cmt-name">Nguyễn Văn A</span>
+                <div class="cmt-detail">
+                    Rất bổ ích
+                </div>
+            </div>
+            <div class="cmt-like-cmt">
+                <button class="btn-cmt" id="like" class="thich" onclick="like(this)">Thích</button>
+                <button class="btn-cmt" id="cmt" onclick="cmt(this);">Trả lời </button>
+                <div id="re-cmt" class="cmt" >  </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-feedback">
+            <div class="footer-feedback-left">
+                <div class="footer-feedback-left-container">
+                    <h3 class="texth3">Get in touch</h3>
+                    <div class="footer-feedback-left-container-div">
+                        <i class="fas fa-phone"></i>
+                        <span>0523923xxx</span>
+                    </div>
+                    <div class="footer-feedback-left-container-div">
+                        <i class="fas fa-envelope"></i>
+                        <span>thienv29@gmail.com</span>
+                    </div>
+                    <div class="footer-feedback-left-container-div">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>HCM city</span>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="footer-feedback-right">
+                <form action="feedback" class="form" id="formfeedback">
+                    <h2>Feedback</h2>
+                    <div class=" form-div">
+                        <input class="input" type="text" name="email" required>
+                        <label for="user" class="form-label">
+                            <span class="label-content">Email</span>
+                        </label>
+                    </div>
+                    <div class=" form-div">
+                        <!-- <i class="fas fa-signature"></i> -->
+                        <input class="input" type="text" name="name" required>
+                        <label for="name" class="form-label">
+                            <span class="label-content"> Name</span>
+                        </label>
+                    </div>
+                    <div class=" form-div">
+                        <input class="input" type="text" name="message" required>
+                        <label for="message" class="form-label">
+                            <span class="label-content">Mesage</span>
+                        </label>
+                    </div>
+                    <button class="btn-getstarted feedback-button">Send</button>
+                </form>
+            </div>
+            
+            
+        </div>
+        <div class="grid grid-footer">
+            <div class="gridrow gridrow-footer2">
+                <div class="contactus">
+                    <img src="/webDesign/resources/img/socials/facebook.png" alt="">
+                    <img src="/webDesign/resources/img/socials/linked.png" alt="">
+                    <img src="/webDesign/resources/img/socials/twitter.png" alt="">
+                </div>
+                <div class="gridcol-2-category-footer">
+                    <h3>Take care of customers</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">Help center</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">Shopping guide</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">Tickid Mall</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="gridcol-2-category-footer">
+                    <h3>TICKID</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">About Tickid</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">Recruitment</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item-link">Terms</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+                <div class="gridcol-2-category-footer">
+                    <h3>Contact us </h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <i class="fab fa-facebook"></i>
+                            <a href="#" class="footer-item-link">Facbook</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="fab fa-instagram"></i>
+                            <a href="#" class="footer-item-link">Instagram</a>
+                        </li>
+                        <li class="footer-item">
+                            <i class="fab fa-twitter"></i>
+                            <a href="#" class="footer-item-link">Twiter</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="gridcol-2-category-footer">
+                    <h3>Code</h3>
+                    <ul class="footer-pay">
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/cplus.png" alt="">
+                        </li>
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/cshap.png" alt="">
+                        </li>
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/css.png" alt="">
+                        </li>
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/html.png" alt="">
+                        </li>
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/java.png" alt="">
+                        </li>
+                        
+                        <li class="footer-img-pay">
+                            <img src="./resources/img/iconLanguage/js.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+        <div class="lastest">
+            <p>© 2020 DevTools. Tất cả các quyền được bảo lưu.</p>
+        </div>
+    
+        </div>
+
+    </footer>
+   
+</body>
+
+<script src="./resources/js/script-htmlcss.js"></script>
+<!-- <script src="./resources/js/script.js"></script> -->
+<script src="/webDesign/resources/js/validator.js"></script>
+<script src="/webDesign/resources/js/all.js"></script>
+</html>
